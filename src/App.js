@@ -1,7 +1,10 @@
 import React from "react";
+import PopupModal from "./Practice/PopupModal.tsx";
+// import Practice from "./Practice/practice";
+// import FileExplorer from "./File/FileExplorer";
 // import Form1 from "./User/form1";
 // import Faqs from "./User/Faqs";
-import Popup from "./User/popup";
+// import Popup from "./User/popup";
 
 const App = () => {
   return (
@@ -9,7 +12,10 @@ const App = () => {
       helloe
       {/* <Form1 /> */}
       {/* <Faqs /> */}
-      <Popup />
+      {/* <Popup /> */}
+      {/* <FileExplorer /> */}
+      {/* <Practice /> */}
+      <PopupModal />
     </div>
   );
 };
